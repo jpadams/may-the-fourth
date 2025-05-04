@@ -1,0 +1,14 @@
+{
+  "name": "may-the-fourth",
+  "engineVersion": "v0.18.5",
+  "sdk": {
+    "source": "go"
+  },
+  "dependencies": [
+    {
+      "name": "tech-summarizer-agent",
+      "source": "github.com/jasonmccallister/technical-content-summarizer",
+      "pin": "923d3da647467563b09f4db6a3aab980a79a1dfd"
+    }
+  ]
+}
