@@ -8,7 +8,7 @@ import (
 
 type MayTheFourth struct{}
 
-func (m *MayTheFourth) Run(ctx context.Context, url string) (string, error) {
+func (m *MayTheFourth) Enlighten(ctx context.Context, url string) (string, error) {
 	summary, err := dag.TechSummarizerAgent().Summarize(ctx, url)
 	if err != nil {
 		return "", err
